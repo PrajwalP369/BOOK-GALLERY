@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Domine", serif;
+}
+header{
+    background-color: rgb(248, 18, 18);
+    display: flex;
+    color: rgb(15, 0, 0);
+    justify-content: space-around;
+    font-size: 20px
+}
+header button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+.banner{
+    background-image: url(https://t3.ftcdn.net/jpg/07/19/74/70/360_F_719747018_py1ePHgIrXFPRLJDdBAQOgqo5TwX3Fi2.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+section{
+    background-color: rgb(6, 6, 6);
+    padding-top:10px;
+    color: white;
+    text-align: center;
+
+}
+.row{
+    background-color:rgb(248, 18, 18) ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.col{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 3%;
+    color: antiquewhite;
+    padding: 10px;
+    font-size: 20px;
+}
+img{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+img:hover{
+    box-shadow: 4px 4px rgb(16, 253, 83);
+}
+span{
+    color: rgb(251, 16, 16);
+    font-size: 20px;
+}
+section button{
+    background-color: rgb(248, 250, 249);
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 25px;
+    color: black;
+    font-size: 18px;
+}
+section button:hover{
+    box-shadow: 2px 2px rgb(251, 16, 16);
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    padding: 30px;
+}
+@media screen and (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    header{
+        width: 400px;
+        background-color: darkred;
+        color: azure;
+        padding: 0px;
+    }
+    nav{
+        width: 400px;
+        background-color: crimson;
+        margin: 0px;
+        padding: 0px;
+    }
+    .row{
+        background-color: antiquewhite;
+        width: 400px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        height: 2000px;
+    }
+    .col{
+        height: 1000px;
+        width: 350px;
+        border: 3px solid rgb(171, 50, 50);
+        margin-left: 23px;
+    }
+    footer{
+        background-color: aqua;
+        height: 60px;
+    }
+    footer p{
+        text-align: center;
+        color: black;
+        text-decoration: underline;
+        margin-top: 200px;
+        
+    }
+}
